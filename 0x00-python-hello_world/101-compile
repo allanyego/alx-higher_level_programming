@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -m compileall $PYFILE my_main.pyc
+python3 -m compileall $PYFILE && bname=$(basename "${PYFILE%.*}"); dname=$(dirname "$PYFILE"); find $dname/__pycache__ -name "${bname}.cpython-*.pyc" -exec mv -t $dname {} +; mv ${bname}.cpython-*.pyc ${bname}.pyc
