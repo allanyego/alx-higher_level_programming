@@ -1,15 +1,28 @@
 #0x00. Python - Hello, World
 
-S1:
+S1: Run an inline script
 
-S2:
+S2: Escaping characters
 
-S3:
+S3: Print an integer
 
-S4:
+S4: Formatted float number
 
-S5:
+S5: String repetition (*)
 
-S6:
+S6: Basic concatenation
 
-S7:
+S7: Copy, cut, paste
+
+S8: String concatenation to make a sentence
+
+S9: The Zen of Python (Easter Egg)
+
+S10: ?
+
+S11: Writing with sys to stderr
+
+S12: Compiling a Python script
+
+S13: Some play with bytecodes
+
