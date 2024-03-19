@@ -5,3 +5,4 @@ def remove_char_at(str, n):
         if indx != n:
             out += lttr
         indx += 1
+    return out

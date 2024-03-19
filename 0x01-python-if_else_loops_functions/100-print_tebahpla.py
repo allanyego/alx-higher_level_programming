@@ -4,7 +4,7 @@ start = 1
 for co in reversed_ords:
     if start % 2 == 0:
         print_c = chr(co - 32)
-        print(print_c, end='')
+        print("{}".format(print_c), end='')
     else:
-        print(chr(co), end='')
+        print("{}".format(chr(co)), end='')
     start += 1
