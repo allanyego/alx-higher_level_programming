@@ -4,12 +4,10 @@ def uppercase(str):
     for l in str:
         co = ord(l)
         print(l, co, sep=' - ')
-        # add uppercased as is
-        if co >= 65 and co <= 90:
-            print(f"{l} is upper!")
-            out += l
-        elif co == 32:  # whitespace
-            out += l
+        # convert lowercase
+        if co >= 97 and co <= 122:
+            out += chr(co - 32)  # A is 32 less aout += l
+        # print others as is
         else:
-            out += chr(ord(l) - 32)  # A is 32 less a
-    return out
+            out += l
+    print(out)
