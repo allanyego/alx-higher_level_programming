@@ -6,9 +6,11 @@ def add_tuple(tuple_a=(), tuple_b=()):
     if len(tuple_a) > len(tuple_b):
         cntrl, othr = tuple_a, tuple_b
 
-    for i, num_a in enumerate(cntrl):
+    curr = 0
+    while curr < 2:
         num_b = 0
         if i < len(othr):
             num_b = othr[i] 
         out.append(num_a + num_b)
+        
     return tuple(out)
