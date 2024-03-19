@@ -1,0 +1,9 @@
+#!/bin/bash/python3
+def no_c(my_string):
+    str_lst = list(my_string)
+    out = ""
+    for s in str_lst:
+        if s.lower() == "c":
+            continue
+        out += s
+    return out
