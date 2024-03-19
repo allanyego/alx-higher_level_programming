@@ -10,4 +10,4 @@ def uppercase(str):
         # print others as is
         else:
             out += l
-    print(out)
+    print("{}".format(out))
