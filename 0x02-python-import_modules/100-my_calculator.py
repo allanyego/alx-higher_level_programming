@@ -14,14 +14,13 @@ if __name__ == "__main__":
         sys.exit(1)
 
     a, b = int(a), int(b)
-    match op:
-        case "+":
+    if op == "+":
             res = add(a, b)
-        case "-":
+    elif op == "-":
             res = sub(a, b)
-        case "*":
+    elif op == "*":
             res = mul(a, b)
-        case "/":
+    elif op == "/":
             res = div(a, b)
 
     print("{} {} {} = {}".format(a, op, b, res))
