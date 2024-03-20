@@ -15,12 +15,12 @@ if __name__ == "__main__":
 
     a, b = int(a), int(b)
     if op == "+":
-            res = add(a, b)
+        res = add(a, b)
     elif op == "-":
-            res = sub(a, b)
+        res = sub(a, b)
     elif op == "*":
-            res = mul(a, b)
+        res = mul(a, b)
     elif op == "/":
-            res = div(a, b)
+        res = div(a, b)
 
     print("{} {} {} = {}".format(a, op, b, res))
